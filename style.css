@@ -1,0 +1,66 @@
+html {
+    background-color: black;
+}
+
+#bg {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    background-image: url(./images/bg.png);
+    margin: 0px auto;
+}
+
+.createBy {
+    width: 800px;
+    margin: auto;
+    text-align: center;
+    font-style: italic;
+    color: gray;
+}
+
+#hero {
+    width: 35px;
+    height: 54px;
+    position: absolute;
+    left: 365px;
+    bottom: 0;
+}
+
+.heroLeft {
+    background: url(./images/hero.png) no-repeat;
+    background-position: -70px 0px;
+}
+
+.heroRight {
+    background: url(./images/hero.png) no-repeat;
+    background-position: -105px 0px;
+}
+
+.heroUp {
+    background: url(./images/hero.png) no-repeat;
+    background-position: -35px 0px;
+
+}
+
+.heroDown {
+    background: url(./images/hero.png) no-repeat;
+    background-position: 0px 0px;
+}
+
+.enemy {
+    width: 45px;
+    height: 54px;
+    position: absolute;
+    left: 355px;
+    top: 0;
+}
+
+.enemyAlive {
+    background: url(./images/enemy.png) no-repeat;
+    background-position: 0px 0px;
+}
+
+.enemyDead {
+    background: url(./images/enemy.png) no-repeat;
+    background-position: -45px 0px;
+}
